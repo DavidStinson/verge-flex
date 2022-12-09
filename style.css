@@ -5,6 +5,7 @@ body {
   flex-direction: column;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
 }
 
 
@@ -17,3 +18,69 @@ header {
   background-color: #292929; 
 }
 
+/* section 1 -------------------------- */
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav {
+  align-self: flex-end;
+  display: block;
+  /* flex-direction: row; */
+  width: 60%;
+  margin: 0 70px;
+  border-bottom: 1px solid white;
+  max-height: 10vmin;
+}
+
+nav > ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-link-li {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.nav-link-li > a {
+  text-decoration: none;
+  color: white;
+  margin-bottom: 0;
+}
+
+li > p {
+  color: white;
+  font-size: 25px;
+  font-weight: 300;
+  margin: 10px -4px;
+}
+
+.plus-p {
+  font-size: 35px;
+  margin-left: -15px;
+}
+
+a > h3 {
+  font-weight: 300;
+}
+
+a > h1 {
+  font-weight: 400;
+}
+
+span, p {
+  color: white;
+  margin-bottom: 0;
+}
+
+.section1 {
+  margin: 20px 60px;
+}
