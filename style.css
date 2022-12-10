@@ -18,7 +18,7 @@ header {
   background-color: #292929; 
 }
 
-/* section 1 -------------------------- */
+/* main nav -------------------------- */
 
 main {
   display: flex;
@@ -76,11 +76,93 @@ a > h1 {
   font-weight: 400;
 }
 
-span, p {
+p {
   color: white;
   margin-bottom: 0;
 }
 
+/* section ---- ----- */
+
 .section1 {
   margin: 20px 60px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main-story-div {
+  max-width: 60%;
+
+}
+
+.main-story-div > img {
+  width: 100%;
+}
+
+.story-list > p {
+  color: rgb(9, 224, 181);
+  font-size: .8em;
+  max-width: 40%;
+}
+
+.story-list-div {
+  width: 100%;
+}
+
+.story-list {
+  width: 80%;
+}
+
+.story-list > li {
+  color: white;
+  border-bottom: 1px solid rgba(149, 148, 148, 0.306);
+  margin: 10px;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.list-item-wrap {
+  width: 240px;
+}
+
+.list-item-wrap > h3 {
+color: white;
+font-size: 1.3em;
+margin-bottom: 0;
+}
+
+.author-time-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width:90%;
+}
+
+.author-time-wrapper > p {
+  font-size: .5em;
+  color: rgb(154, 154, 154);
+  letter-spacing: .1rem;
+}
+
+.author-time-wrapper > p:first-of-type {
+  font-size: .7em;
+  color: rgb(9, 224, 181);
+}
+
+.img-wrap {
+  width: 25%;
+  max-height: 13vmin;
+  overflow: hidden;
+  border-radius: 5px;
+  border: 1px solid rgba(149, 148, 148, 0.523);
+}
+
+.img-wrap > img {
+  max-width: 100%;
+  object-fit: cover;
+  
 }
