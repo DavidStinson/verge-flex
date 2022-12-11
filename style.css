@@ -237,7 +237,8 @@ section {
   display: flex;
   flex-direction: column;
   font-size: .85em;
-  width: 40%;
+  width: 50%;
+  margin: 10px 0 0 150px;
   justify-content: space-between;
 }
 
@@ -355,4 +356,78 @@ section {
   object-fit: cover;
   border-radius: 10px;
   border: 1px solid rgba(54, 99, 139, 0.547);
+}
+
+
+/* most pop stories ----- */
+.most-pop-section-div {
+  align-self: flex-start;
+  margin: 0 130px 0 0;
+  width: 35%;
+  height: 43vmin;
+  background-color: rgb(75, 11, 252);
+  border-radius: 25px;
+}
+
+.story-list2 > p {
+  font-size: .6em;
+  font-weight: 600;
+  margin: 5px 0 0 0;
+}
+
+
+.story-list2 > li {
+  width: 60%;
+  color: white;
+  border-bottom: 1px solid rgb(82, 217, 255);
+  margin: 0 80px 0 0;
+  padding: 5px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.list-item-wrap2 {
+  width: 100%;
+
+}
+
+.list-item-wrap2>h3 {
+  color: white;
+  font-size: 1.1em;
+  margin-bottom: 0;
+  padding: 5px 0;
+}
+
+.author-time-wrapper2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.author-time-wrapper2>p {
+  font-size: .5em;
+  color: white;
+  letter-spacing: .1rem;
+  margin: 5px;
+}
+
+.author-time-wrapper2>p:first-of-type {
+  font-size: .7em;
+  color: white;
+}
+
+.most-pop-h1{
+  color: rgba(49, 11, 155, 0.557);
+  transform: rotate(-90deg);
+  font-size: 5.3em;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  position: relative;
+  width: 100%;
+  bottom: 330px;
+  left: 188px;
 }
