@@ -83,7 +83,7 @@ p {
 
 /* section ---- ----- */
 
-.section1 {
+section {
   margin: 20px 60px;
   width: 100%;
   display: flex;
@@ -214,7 +214,7 @@ margin-bottom: 0;
 
 .img-wrap {
   width: 23%;
-  height: 9vmin;
+  max-height: 7vmin;
   overflow: hidden;
   border-radius: 5px;
   margin-top: 20px;
@@ -227,4 +227,79 @@ margin-bottom: 0;
   max-width: 100%;
   object-fit: cover;
   
+}
+
+
+/* section 2 ------ */
+
+.left-side-stories-div {
+  display: flex;
+  flex-direction: column;
+  font-size: .85em;
+  width: 40%;
+  justify-content: space-between;
+}
+
+.small-story-div {
+  width: 80%;
+}
+
+.small-story-deets-div {
+  display: flex;
+  flex-direction: row;
+  font-size: .8em;
+  align-items: center;
+  padding: 0 0 20px 0;
+  border-bottom: 1px solid rgba(149, 148, 148, 0.306);
+}
+
+.small-story-deets-div > p:first-of-type {
+  color: rgb(154, 154, 154);
+  margin: 10px 5px 3px 0;
+}
+
+
+.small-story-deets-div > p:last-of-type {
+  color: rgb(9, 224, 181);
+  margin: 10px 5px 3px 0;
+}
+
+.medium-story-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 15px 0;
+  width: 80%;
+  border-bottom: 1px solid rgba(149, 148, 148, 0.306);
+}
+
+
+.medium-story-text-wrap > h4 {
+  color: white;
+  font-size: 1.5em;
+  margin: 0 0 5px 0;
+}
+
+.medium-story-deets-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: .8em;
+  letter-spacing: .1rem;
+
+}
+
+.medium-story-deets-div > p:first-of-type {
+  color: rgb(9, 224, 181);
+  margin: 0 5px 3px 0;
+}
+
+
+.medium-story-deets-div > p:last-of-type {
+  color: rgb(154, 154, 154);
+  margin: 0 5px 3px 0;
+}
+
+.medium-story-img-div {
+  margin-bottom: 20px;
 }
