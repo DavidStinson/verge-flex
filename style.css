@@ -148,6 +148,8 @@ section {
   letter-spacing: .1rem;
 }
 
+/* top stories ---------- */
+
 .top-stories-section-div {
   align-self: flex-start;
   margin-top: 90px;
@@ -272,6 +274,10 @@ section {
   border-bottom: 1px solid rgba(149, 148, 148, 0.306);
 }
 
+.medium-story-text-wrap {
+  width: 70%;
+}
+
 
 .medium-story-text-wrap>h4 {
   color: white;
@@ -300,7 +306,7 @@ section {
 }
 
 .medium-story-img-div {
-  margin-bottom: 20px;
+  margin: 0 10px 20px 10px
 }
 
 
